@@ -2,7 +2,6 @@
 
 > Gets all but the first element, or n elements in the given array.
 
-## Install
 ## Install with [npm](npmjs.org)
 
 ```bash
@@ -18,11 +17,14 @@ npm test
 ## Usage
 
 ```js
-var arrayRest = require('array-rest');
+var rest = require('array-rest');
+
+rest(['a', 'b', 'c', 'd', 'e', 'f']);
+//=> ['b', 'c', 'd', 'e', 'f']
+
+rest(['a', 'b', 'c', 'd', 'e', 'f'], 3);
+//=> ['d', 'e', 'f']
 ```
-
-## API
-
 
 ## Contributing
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/jonschlinkert/array-rest/issues)

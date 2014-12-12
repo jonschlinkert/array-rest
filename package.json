@@ -1,7 +1,7 @@
 {
   "name": "array-rest",
   "description": "Gets all but the first element, or n elements in the given array.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/array-rest",
   "author": {
     "name": "Jon Schlinkert",
